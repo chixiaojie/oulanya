@@ -1,0 +1,178 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.hide{
+    display:none;
+}
+#d1{
+    height:100px;
+    font-size:1rem;
+    background-color:#000;
+}
+.row .col-10 .nav a{
+    color:#fff;
+}
+.font_small{
+    font-size:12px;
+
+}
+.text_color{
+    color:#999999;
+}
+#hufu{
+    height:450px;
+    background-color:#333;
+    
+}
+#hufu>div{
+    width:350px;
+    height:440px;
+    margin:0 10px;
+    padding:10px;
+}
+#faxing div ul li,
+#nanshi div ul li,
+#ranfa div ul li,
+#hufa div ul li,
+#caizhuang div ul li,
+#hufu div ul li{
+    list-style:none;
+}
+#faxing div p,
+#nanshi div p,
+#ranfa div p,
+#hufa div p,
+#caizhuang div p,
+#hufu div p{
+    color:#777;
+    font-size:14px;
+    margin:0;
+}
+#faxing div ul li a,
+#nanshi div ul li a,
+#ranfa div ul li a,
+#hufa div ul li a,
+#caizhuang div ul li a,
+#hufu div ul li a{
+    color:#fff;
+    font-size:12px;
+    text-decoration:none;
+}
+#faxing div ul li a:before,
+#nanshi div ul li a:before,
+#ranfa div ul li a:before,
+#hufa div ul li a:before,
+#caizhuang div ul li a:before,
+#hufu div ul li a:before{
+    content:"> ";
+}
+#hufu hr,#caizhuang hr,#hufa hr,#ranfa hr,#nanshi hr,#faxing hr{
+    margin:8px 0;
+    color:rgb(206, 185, 185);
+
+}
+.faxing_1,.faxing_2,.faxing_3,
+.nanshi_1,.nanshi_2,.nanshi_3,
+.ranfa_1,.ranfa_2,.ranfa_3,
+.hufa_1,.hufa_2,.hufa_3,
+.caizhuang_1,.caizhuang_2,.caizhuang_3,
+.hufu_1,.hufu_2,.hufu_3{
+    float:left;
+}
+.faxing_1 div img,.faxing_2 div img,.faxing_3 div img,
+.nanshi_1 div img,.nanshi_2 div img,.nanshi_3 div img,
+.ranfa_1 div img,.ranfa_2 div img,.ranfa_3 div img,
+.hufa_1 div img,.hufa_2 div img,.hufa_3 div img,
+.caizhuang_1 div img,.caizhuang_2 div img,.caizhuang_3 div img,
+.hufu_2 div img,.hufu_1 div img{
+    width:328px;
+}
+.hufu_2 div img{
+    margin-top:95px;
+}
+.hufu_3 ul{
+    width:160px;
+}
+.hufu_3 ul:last-child{
+    float:left;  
+    margin-right:4px;
+}
+.hufu_3 img{
+    width:328px;
+    margin-top:69px;
+}
+#caizhuang,#hufa,#ranfa,#nanshi,#faxing{
+    height:365px;
+    background-color:#333;
+}
+.caizhuang_1{
+    margin-left:20px;
+}
+.caizhuang_3,
+.caizhuang_2,
+.caizhuang_1{
+    margin-top:10px;
+}
+.caizhuang_1 img{
+    margin-top:5px;
+}
+.caizhuang_2 img{
+    margin-top:53px;
+    margin-left:35px;
+}
+.caizhuang_3 img{
+    margin-top:101px;
+    margin-left:35px;
+}
+#hufa,#ranfa,#nanshi,#faxing{
+    padding:20px;
+}
+
+.hufa_3_2 ul{
+    margin-left:60px;
+}
+.ranfa_2_2 ul{
+    margin-left:80px;
+}
+.nanshi_2 div ul,
+.nanshi_3 div ul,
+.ranfa_2 div ul,
+.hufa_3 div ul{
+    float:left;
+}
+.hufa_3 img{
+    margin-top:23px;
+}
+.ranfa_2,.ranfa_3,
+.hufa_2,.hufa_3{
+    margin-left:40px;
+}
+.ranfa_1 img{
+    margin-top:80px;
+}
+.ranfa_2 img{
+    margin-top:9px;
+}
+.ranfa_3 img{
+    margin-top:33px;
+}
+.nanshi_2_2,.nanshi_3_2{
+    margin-left:150px;
+}
+.nanshi_1 img{
+    margin-top:24px;
+}
+.nanshi_2,.nanshi_3{
+    margin-left:38px;
+}
+.faxing_2,.faxing_3{
+    margin-left:38px;
+}
+.faxing_1 img{
+    margin-top:119px;
+}
+.faxing_3 img{
+    margin-top:47px;
+}

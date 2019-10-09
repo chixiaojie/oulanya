@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+}
+.breadcrumb{
+    background-color:transparent;
+}
+.breadcrumb li a{
+    color:#333333;
+    font-size:0.8rem;
+}
+.breadcrumb-item+.breadcrumb-item:before{
+    content:">";
+}
+h1{
+    color:#c5a55c;
+    margin-top:20px;
+    text-align:center;
+}
+.reg{
+    width:1110px;
+    height:585px;
+    background-image:url(../img/login-bg2.jpg)
+
+     
+}
+.reg-body-top{
+    width:1059px;
+    height:53px;
+    border:1px solid #000;
+    margin-top:35px;
+    margin-left:25px;
+
+}
+.reg-body-top .d1,
+.reg-body-top .d3{
+    width:353px;
+    height:53px;
+}
+.reg-body-top .d2{
+    width:351px;
+    height:53px;
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+}
+.reg-body-top .d3{
+    background-color:#000;
+}
+.reg-body-top .d3 h3{
+    color:#fff;
+    line-height:53px;
+    text-align:center;
+}
+.reg-body-top .d2 h3,
+.reg-body-top .d1 h3{
+    color:#000;
+    line-height:53px;
+    text-align:center;
+}
+.reg-body-bottom{
+    width:1059px;
+    height:468px;
+    border:1px solid #000;
+    margin-left:25px;
+}
+.reg-body-bottom-s{
+    width:450px;
+    height:375px;
+    margin:0 auto;
+}
+.sanjiao{
+    width:0px;
+    border-top:10px solid black;
+    border-right:10px solid transparent;
+    border-left:10px solid transparent;
+    margin-left:870px;
+}
+.reg-body-bottom-s .input1{
+    width:430px;
+    padding:3px;
+    margin-bottom:10px;
+}
+.reg-body-bottom-s .input3{
+    width:265px;
+    padding:3px;
+    margin-bottom:10px;
+}
+.s-1{
+    width:453px;
+    height:36px;
+}
+.reg-body-bottom-s .input2{
+    width:36px;
+    height:36px;
+    float:left;
+    margin:0 1% 0 0;
+}
+.reg-body-bottom-s .s-1 span{
+    font-size:12.5px;
+    height:18px;
+    line-height:18px;
+    float:left;
+}
+
+.reg-body-bottom-s .btn{
+    color:#c5a55c;
+    margin-left:160px;
+    margin-right:50px;
+    width:125px;
+   
+}
+.reg-body-bottom-s a{
+    color:#000;
+}
+.reg-body-bottom-s .p{
+    font-size:13.5px;
+    text-align:center;
+}
